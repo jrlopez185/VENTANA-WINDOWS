@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    /*Tamaño de la web*/
+    font-size: 10;
+    
+    /*Tipografía*/
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color_1: #1C1B17;
+    --color_2: #2B2A29;
+    --color_3: #34495E;
+}
