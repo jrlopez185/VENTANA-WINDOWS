@@ -1,0 +1,27 @@
+.escritorio{
+    background-image: url(https://i.pinimg.com/564x/d1/f5/36/d1f536df524b0d06dc1e0a7148229751.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.barra{
+    background-color: #1C1B17;
+    width: 1000px;
+    height: 42px;
+    position: absolute;
+    top: 580px
+}
+
+.menu{
+    position: absolute;
+    width: 49px;
+    height: 42px;
+    background-image: url(https://github.com/jrlopez185/imagenes-suvir/blob/main/in_2.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+}
