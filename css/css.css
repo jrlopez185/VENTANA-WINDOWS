@@ -38,6 +38,7 @@
     position: absolute;
     left: 80px;
     z-index: 2;
+    color: white;
 }
 
 .hora{
@@ -45,7 +46,11 @@
     top: 0px;
     left: 900px;
     color: white;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
+
 
 #show-modal{
     text-align: center;
@@ -96,6 +101,9 @@
     text-align: center;
     color:white;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .modal article{
@@ -114,10 +122,13 @@
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .modal a:hover{
-    color: #c0392b;
+    /*color: #c0392b;*/
 }
 
 .modal:target{
@@ -229,6 +240,9 @@
     text-align: center;
     color:white;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .modal_1 .article_1{
