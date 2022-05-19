@@ -13,6 +13,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -20,44 +23,55 @@
 
     <div class="escritorio">
         <div class="barra">
-            <a href="#modal" id="show-modal">
-                <img src="https://github.com/jrlopez185/imagenes-suvir/blob/main/in_2.png?raw=true">
-            </a>
-
-            <aside id="modal" class="modal">
-                <div class="content-modal">
-                    <header>
-                        <a href="#" class="close-modal">X</a>
-                        <h2>Menu</h2>
-                    </header>
-                    <article>
-                        <div class="section-22">
-                            <img class="ima" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/ex-removebg-preview.png?raw=true"><p class="s">Explorador de archivos</p></div>
-                        <div class="section-2"></div>
-                    </article>
-                </div>
-                <a href="#" class="btn-close-modal"></a>
-            </aside>
-
-               <!--SEGUNDA PARTE DE EXPLORADOR DE ARCHIVOS DE BARRA DE TAREAS-->
-            <a href="#modal_1" id="show-modal_1">
-                <img class="imagen_1" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/ex-removebg-preview.png?raw=true">
-            </a>
-
-            <aside id="modal_1" class="modal_1">
-                <div class="content-modal_1">
-                    <header>
-                        <a href="#" class="close-modal_1">X</a>
-                        <h2 class="h2_1">Explorador de archivos</h2>
-                    </header>
-                </div>
-                <a href="#" class="btn-close-modal_1"></a>
-            </aside>
-
-            <p class="hora">4/05/2022</p>
+            
+                <img class="imagen" id="vt_menu" onclick="activar_desactivar()"  src="https://github.com/jrlopez185/imagenes-suvir/blob/main/in_2.png?raw=true">
+                <img class="imagen2" id="vt_bts" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/explorador_de_carpetas-removebg-preview%20(1).png?raw=true">
+            
+            <!--<p class="hora">4/05/2022</p>-->
+         
         </div>
     </div>
+    <div class="ventanaActivar" id="ventanaActivar">
+        <header class="encabezado"></header>
+        <div class="contenido"><img class="google" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/cr-removebg-preview.png?raw=true" ></div>
+        <div class="contenido2"><img class="Office" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/ofi-removebg-preview.png?raw=true"></div>
+        <div class="contenido3"><img class="Word" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Word-removebg-preview.png?raw=true"></div>
+        <div class="contenido4"><img class="store" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/store-removebg-preview.png?raw=true"></div>
+        <div class="contenido5"><img class="Ed" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Ed-removebg-preview.png?raw=true"></div>
+        <div class="contenido6"><img class="Visual" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Visual-removebg-preview.png?raw=true"></div>
+        <div class="Ubuntu"><img class="Ubu" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Ubu-removebg-preview.png?raw=true"></div>
+    </div>
+    <div class="v_carp" id="v_carp">
+        <header class="enca">
+            <img class="logos" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/explorador_de_carpetas-removebg-preview%20(1).png?raw=true">
+            <p class="explorador">Explorador de archivos</p>
+        </header>
+        <header class="enca2">
+            <div class="barra2">
+                <div class="A">
+                    <img class="Ac" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/acceso_rapido-removebg-preview.png?raw=true">
+                    <p class="Acceso">Acceso rápido</p>
+                </div>
+
+                <div class="A2">
+                    <img class="Ac2" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Descar-removebg-preview.png?raw=true">
+                    <p class="Acceso2">Descargas</p>
+                </div>
+
+                <div class="A3">
+                    <img class="Ac3" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Docu-removebg-preview.png?raw=true">
+                    <p class="Acceso3">Documentos</p>
+                </div>
+
+                <div class="A4">
+                    <img class="Ac4" src="https://github.com/jrlopez185/imagenes-suvir/blob/main/Escritorio-removebg-preview.png?raw=true">
+                    <p class="Acceso4">Escritorio</p>
+                </div>
+            </div>
+            </div>
+        </header>
+    </div>
     <!--Codigo js-->
-    <script src="js/js.js"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
