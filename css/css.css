@@ -387,3 +387,33 @@ font-size: 80%;
 .A4:hover{
     background-color: #45484a;
 }
+
+.Salir{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    top: 6px;
+    left: 920px;
+}
+
+.Maximisar{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    top: -1px;
+    left: 880px;
+    font-size: 25px;
+
+}
+
+.QuitarTemporalmente{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    top: -5px;
+    left: 850px;
+    font-size: 30px;
+}
